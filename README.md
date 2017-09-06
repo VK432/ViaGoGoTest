@@ -20,6 +20,7 @@ There are multiple assumptions that I have made, which I have listed below.
 * The user is allowed to input coordinates outside the grid area.
 
 ### Random Generation Assumptions
+**The following assumptions can be tweaked by changing the values of the constants in TaskManager.java**
 * There is between 1-400 events (The maximum possible on the grid).
 * There is between 0-100 tickets available for each event (In order to give the random generator a range).
 * The price of a ticket is between $0.01 - $99.99 (In order to give the generator generator a range).
