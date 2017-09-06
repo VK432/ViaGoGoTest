@@ -22,7 +22,7 @@ There are multiple assumptions that I have made, which I have listed below.
 ### Random Generation Assumptions
 * There is between 1-400 events (The maximum possible on the grid).
 * There is between 0-100 tickets available for each event (In order to give the random generator a range).
-* The price of a ticket is between $0.01 - $99.99 (In order to give the generator seed a range).
+* The price of a ticket is between $0.01 - $99.99 (In order to give the generator generator a range).
 
 
 #### How might you change your program if you needed to support multiple events at the same location?
@@ -33,6 +33,6 @@ A simpler but less scalable solution would simply be to use a Map, and Map each 
 
 #### How would you change your program if you were working with a much larger world size?
 
-The biggest change that would need to be made in order to implement this on a larger world size is the method of searching for the closest events. Currently I look through all the events, calculate the distance to each of them, and then sort them by distance. This is the simplest and most easy to read and understand method, and is more then adequate for a grid of this size. However, on much larger grids (e.g. the size of a country) this would not be practical. Instead I would implement a search technique that radiates outwards from the users location, i.e. first search squares distance 1 away, then distance 2 etc. Until 5 events have been found.
+The biggest change that would need to be made in order to implement this on a larger world size is the method of searching for the closest events. Currently I look through all the events, calculate the distance to each of them, and then sort them by distance. This is the simplest and easiest to read and understand method, and is more then adequate for a grid of this size. However, on much larger grids (e.g. the size of a country) this would not be practical. Instead I would implement a search technique that radiates outwards from the users location, i.e. first search squares distance 1 away, then distance 2 etc. Until 5 events have been found.
 
 
