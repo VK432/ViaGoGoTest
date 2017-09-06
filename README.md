@@ -2,11 +2,11 @@
 
 ## Compilation and Running
 
-From within the directory run the following command the compile all the files:
+After downloading and extracting the zip file, from within the directory run the following command the compile all the files:
 
 **javac \*.java**
 
-You can then run the program by exectuing the folowing command:
+You can then run the program by exectuing the folowing command from within the directory:
 
 **java TaskManager**
 
