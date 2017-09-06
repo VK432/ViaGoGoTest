@@ -2,7 +2,7 @@
 
 ## Compilation and Running
 
-After downloading and extracting the zip file, from within the directory run the following command the compile all the files:
+After downloading and extracting the zip file, from within the directory run the following command to compile all the files:
 
 **javac \*.java**
 
